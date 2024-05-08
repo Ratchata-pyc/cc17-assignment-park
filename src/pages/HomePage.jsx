@@ -23,7 +23,7 @@ function HomePage() {
   return (
     <div className="container_home">
       <div className="title__home">
-        <span>Title+Notes</span>
+        <span>Title+Notesa</span>
         <h1>Welcome</h1>
       </div>
 
