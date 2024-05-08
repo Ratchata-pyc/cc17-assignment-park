@@ -48,6 +48,17 @@ input {
   font-size: 24px;
 }
 /*HomePage*/
+.container_home {
+  height: 656px;
+  width: 505px;
+  background-color: #1e1f26;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #292930;
+  border-radius: 10px;
+}
+
 .title__home {
   width: 377px;
   display: flex;
@@ -99,19 +110,38 @@ input {
   justify-items: center;
   text-align: center;
 }
+.link__login {
+  background-color: #292930;
+  width: 385px;
+  height: 62px;
+  margin-top: 12px;
+  color: white;
+  border-radius: 20px;
+  font-weight: 1000;
+  display: flex;
+  justify-content: center;
+}
 
 /*ProfilePage*/
-.container {
+.container__user {
   height: 656px;
   width: 505px;
   background-color: #1e1f26;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid gray;
+  border: 1px solid #292930;
   border-radius: 10px;
 }
 
+.title {
+  width: 377px;
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: start;
+  margin-top: 60px;
+}
 .title h1 {
   display: flex;
   position: relative;
@@ -120,19 +150,25 @@ input {
   align-items: center;
 }
 
-.title button {
-  width: 56px;
-  height: 56px;
+.title img {
+  width: 32px;
+  height: 32px;
   align-items: center;
   justify-content: center;
   display: flex;
+  padding: 12px;
+  background-color: #24242d;
+  border-radius: 10px;
+  border: 2px solid #292930;
 }
+
 .new__task {
-  margin-top: -30px;
+  margin-top: -90px;
   width: 377px;
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  font-size: 24px;
 }
 .new__task__input {
   width: 377px;
@@ -147,8 +183,8 @@ input {
   width: 377px;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  min-height: 315px;
 }
 .item {
   margin-top: 16px;
@@ -158,6 +194,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 4px;
 }
 .item button {
   padding: 0;
@@ -170,7 +207,6 @@ input {
 }
 .item button p {
   display: flex;
-
   background-color: #1e1f26;
   font-weight: 800;
 }
@@ -181,8 +217,10 @@ input {
   width: 100%;
 }
 
+.logout_button {
+  display: flex;
+}
 .logout {
-  margin-top: 10px;
   width: 385px;
   height: 62px;
   display: flex;
@@ -194,10 +232,11 @@ input {
   background-color: #292930;
   width: 385px;
   height: 62px;
-  margin-top: 12px;
   color: white;
   border-radius: 20px;
   font-weight: 1000;
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-size: 24px;
 }

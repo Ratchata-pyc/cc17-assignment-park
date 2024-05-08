@@ -21,7 +21,7 @@ function HomePage() {
   };
 
   return (
-    <div className="container">
+    <div className="container_home">
       <div className="title__home">
         <span>Title+Notes</span>
         <h1>Welcome</h1>
@@ -45,7 +45,7 @@ function HomePage() {
         />
 
         <div className="login__botton">
-          <button type="submit" className="link">
+          <button type="submit" className="link__login">
             LOG IN
           </button>
         </div>
