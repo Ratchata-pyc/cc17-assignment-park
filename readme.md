@@ -49,7 +49,7 @@ Please follow these conditions before code!
 // You can use this function for getMe
 async function getMe() {
   let token; // get token from somewhere
-  const res = await fetch('base_url/auth/me', {
+  const res = await fetch("base_url/auth/me", {
     headers: {
       Authorization: `Bearer ${token}`, // put your token here
     },
@@ -82,7 +82,7 @@ async function getMe() {
 
 ### 1A : Project Setup (10pts)
 
-- [ ] Create Project with Create React App or ViteJs
+- [x] Create Project with Create React App or ViteJs
 - [ ] Clean up unused files and code
 - [ ] Install dependencies or packages that you need for this project
 - [ ] Pick some CSS Framework and Install eg. Bootstrap, Tailwind, Scss, Vanilla css or MUI
