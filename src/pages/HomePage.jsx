@@ -13,7 +13,7 @@ function HomePage() {
   const handleSubmitLogin = async (e) => {
     e.preventDefault();
     if (username === "ratchata4205@gmail.com" && password === "qwerty") {
-      await login();
+      await login(username, password);
       navigate("/profile");
     } else {
       alert("Invalid Username or Password");
